@@ -7,7 +7,9 @@
         "iam:*",
         "s3:*",
         "ssm:GetParameter",
-        "ec2:*"
+        "ec2:*",
+        "sqs:*",
+        "SNS:*"
       ],
       "Resource": "*"
     }
